@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vue app</title>
+		<link rel="stylesheet" href="style.css" />
+    <script src="data/vue.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<div class="title">
+				<h1>{{ brand }}!</h1>
+			</div>
+			<div class="items">
+				<iphone13></iphone13>
+				<iphone13pro></iphone13pro>
+				<ipad></ipad>
+				<applewatch></applewatch>
+				<macbookpro></macbookpro>
+				<airpodsmax></airpodsmax>
+			</div>
+		</div>
+		<script src="main.js"></script>
+		<script src="data/templates.js"></script>
+		<script src="data/datadetails.js"></script>
+		<script src="components/iphone13.js"></script>
+		<script src="components/iphone13pro.js"></script>
+		<script src="components/ipad.js"></script>
+		<script src="components/applewatch.js"></script>
+		<script src="components/macbookpro.js"></script>
+		<script src="components/airpodsmax.js"></script>
+		<script>	app.mount('#app')	</script>
+	</body>
+</html>
